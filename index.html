@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Molly Link | Pet, Tech & Story Portfolio</title>
+    <meta
+      name="description"
+      content="Molly Link 的個人介紹與接案作品集：寵物溝通、Next.js / Flutter 開發、自媒體短影音創作。"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#home" aria-label="Molly Link home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>
+          <strong>Molly Link</strong>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="主要導覽">
+        <a href="#home"><span>⌂</span> 首頁</a>
+        <a href="#pet"><span>♧</span> 寵物溝通</a>
+        <a href="#dev"><span>&lt;/&gt;</span> 開發接案</a>
+        <a href="#media"><span>▷</span> 影音作品</a>
+        <a class="nav-cta" href="#contact"><span>✉</span> 聯絡我</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero hero-image-cover" id="home" aria-label="Molly Link 首頁封面">
+        <img src="./assets/molly-link-cover.jpg" alt="Molly Link 首頁封面：用程式碼理解語言，用心聆聽貓語" />
+        <a class="cover-hotspot cover-home" href="#home" aria-label="首頁"></a>
+        <a class="cover-hotspot cover-pet" href="#pet" aria-label="寵物溝通"></a>
+        <a class="cover-hotspot cover-dev" href="#dev" aria-label="開發接案"></a>
+        <a class="cover-hotspot cover-media" href="#media" aria-label="影音作品"></a>
+        <a class="cover-hotspot cover-contact" href="#contact" aria-label="聯絡我"></a>
+        <a class="cover-hotspot cover-pet-cta" href="#pet" aria-label="探索寵物溝通"></a>
+        <a class="cover-hotspot cover-dev-cta" href="#dev" aria-label="查看開發服務"></a>
+        <a class="cover-scroll" href="#pet" aria-label="往下瀏覽"></a>
+      </section>
+
+      <section class="mobile-showcase" id="mobile" aria-labelledby="mobile-title">
+        <div class="mobile-showcase-copy">
+          <p class="section-label">Mobile Preview</p>
+          <h2 id="mobile-title">手機版介面也像一本溫柔的毛孩手帳。</h2>
+          <p>
+            行動版會保留 Molly Link 的暖色、貓咪角色與三重身分入口，
+            讓使用者在手機上也能快速理解服務、查看作品並送出合作邀約。
+          </p>
+          <div class="mobile-feature-list">
+            <span>一屏掌握品牌定位</span>
+            <span>底部快速導覽</span>
+            <span>服務 CTA 更明確</span>
+          </div>
+        </div>
+
+        <div class="phone-mockup" aria-label="Molly Link 手機版介面樣機">
+          <div class="phone-shadow"></div>
+          <div class="phone-body">
+            <div class="phone-side-button top"></div>
+            <div class="phone-side-button bottom"></div>
+            <div class="phone-screen">
+              <div class="phone-notch-ui"></div>
+              <div class="mobile-ui">
+                <header class="mobile-ui-header">
+                  <span class="mobile-paw"></span>
+                  <strong>Molly Link</strong>
+                  <button type="button" aria-label="開啟選單"><span></span><span></span></button>
+                </header>
+
+                <section class="mobile-hero-card">
+                  <div class="mobile-chip-row">
+                    <span>寵物溝通師</span>
+                    <span>IT 工程師</span>
+                  </div>
+                  <h3>用程式碼理解語言，用心聆聽貓語</h3>
+                  <p>白天寫程式，晚上聽貓話。陪每一隻貓咪被真正地聆聽。</p>
+                  <div class="mobile-cat-stage">
+                    <span class="mobile-cat orange"></span>
+                    <span class="mobile-cat tabby"></span>
+                    <span class="mobile-note">聽懂牠，是最溫柔的科技。</span>
+                  </div>
+                </section>
+
+                <section class="mobile-actions">
+                  <a href="#pet">探索寵物溝通</a>
+                  <a href="#dev">查看開發服務</a>
+                </section>
+
+                <section class="mobile-stat-grid">
+                  <article><strong>90</strong><span>進階計畫</span></article>
+                  <article><strong>28</strong><span>貓咖探店</span></article>
+                  <article><strong>60+</strong><span>Reels</span></article>
+                </section>
+
+                <section class="mobile-service-list">
+                  <article><span>🐾</span><div><strong>寵物溝通</strong><small>遠距圖文報告</small></div></article>
+                  <article><span>&lt;/&gt;</span><div><strong>網站與 App</strong><small><a href="./pet-translator-app.html">寵物翻譯機 App</a></small></div></article>
+                  <article><span>▷</span><div><strong>短影音作品</strong><small>貓咖與 AI 主題</small></div></article>
+                </section>
+
+                <nav class="mobile-bottom-nav" aria-label="手機版底部導覽">
+                  <a href="#home">⌂</a>
+                  <a href="#pet">♧</a>
+                  <a href="#dev">&lt;/&gt;</a>
+                  <a href="#contact">✉</a>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="metrics" aria-label="Molly Link 目前進度">
+        <article class="metric-card apricot">
+          <strong>90</strong>
+          <span>天動物溝通師進階計畫</span>
+        </article>
+        <article class="metric-card sage">
+          <strong>28 / 100</strong>
+          <span><a href="./cat-cafe-project.html">間貓咖探店進度</a></span>
+        </article>
+        <article class="metric-card mauve">
+          <strong>60+</strong>
+          <span>支 Reels 與寵物內容</span>
+        </article>
+      </section>
+
+      <section class="identity-tabs" aria-labelledby="identity-title">
+        <div class="section-heading">
+          <p>Identity Tabs</p>
+          <h2 id="identity-title">三種能力，一個 Molly Link</h2>
+        </div>
+
+        <div class="tab-shell">
+          <div class="tabs" role="tablist" aria-label="Molly Link 三重身分">
+            <button class="tab active" type="button" role="tab" aria-selected="true" data-tab="pet">
+              <span class="tab-icon heart-icon"></span>
+              Pet Listener
+            </button>
+            <button class="tab" type="button" role="tab" aria-selected="false" data-tab="builder">
+              <span class="tab-icon code-icon"></span>
+              Product Builder
+            </button>
+            <button class="tab" type="button" role="tab" aria-selected="false" data-tab="story">
+              <span class="tab-icon play-icon"></span>
+              Story Maker
+            </button>
+          </div>
+
+          <div class="tab-panel active" data-panel="pet">
+            <div>
+              <p class="panel-kicker">溫暖的寵物溝通</p>
+              <h3>用安靜而細膩的方式，聽見毛孩想說的話。</h3>
+              <p>
+                將動物溝通的直覺力轉化為清楚、可回顧的回饋，陪伴飼主理解毛孩的情緒、生活需求與關係訊息。
+              </p>
+            </div>
+            <ul class="panel-list">
+              <li>溝通前問題整理</li>
+              <li>毛孩狀態與感受回饋</li>
+              <li>90 天進階計畫紀錄</li>
+            </ul>
+          </div>
+
+          <div class="tab-panel" data-panel="builder">
+            <div>
+              <p class="panel-kicker">理性的產品開發</p>
+              <h3>把靈感做成真的能上線、能被使用的網站與 App。</h3>
+              <p>
+                以 Next.js、Flutter 與 AI 自動化工具，把個人品牌、服務流程、內容工作流與寵物科技產品變成具體介面。
+              </p>
+            </div>
+            <ul class="panel-list">
+              <li>個人品牌網站與 Landing Page</li>
+              <li>Flutter App MVP</li>
+              <li>n8n / AI 工作流導入</li>
+            </ul>
+          </div>
+
+          <div class="tab-panel" data-panel="story">
+            <div>
+              <p class="panel-kicker">活潑的影音創作</p>
+              <h3>把寵物、AI 與日常觀察，剪成讓人想看下去的故事。</h3>
+              <p>
+                從腳本、拍攝到剪輯，將貓咖探店、養貓知識與工具分享做成適合 Reels、Shorts、TikTok 的短影音內容。
+              </p>
+            </div>
+            <ul class="panel-list">
+              <li>DJI Pocket 3 拍攝</li>
+              <li>CapCut 剪輯節奏</li>
+              <li>社群短影音企劃</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="services" id="services">
+        <div class="section-heading align-left">
+          <p>Services</p>
+          <h2>可以找 Molly 合作的事</h2>
+        </div>
+        <div class="service-grid">
+          <article class="service-card warm">
+            <span class="mini-cat orange"></span>
+            <h3>寵物溝通</h3>
+            <p>遠距圖文報告、現場溝通、彩虹橋溝通，讓毛孩的感受被溫柔翻譯。</p>
+            <span class="price-chip">NT$1,500 起</span>
+            <a href="#contact">預約溝通</a>
+          </article>
+          <article class="service-card mint">
+            <span class="service-symbol">{ }</span>
+            <h3>網站與 App 開發</h3>
+            <p>Next.js 品牌網站、Flutter MVP、寵物翻譯與社群產品原型設計開發。</p>
+            <span class="price-chip">NT$25,000 起</span>
+            <a href="#contact">討論專案</a>
+          </article>
+          <article class="service-card berry">
+            <span class="service-symbol play-symbol"></span>
+            <h3>短影音拍攝剪輯</h3>
+            <p>DJI Pocket 3 + CapCut，適合寵物品牌、貓咖探店、AI 工具教學。</p>
+            <span class="price-chip">NT$3,000 起 / 支</span>
+            <a href="#contact">洽談影音</a>
+          </article>
+          <article class="service-card sky">
+            <span class="service-symbol flow-symbol">n8n</span>
+            <h3>AI 自動化流程</h3>
+            <p>把發想、腳本、素材整理、發布排程與客戶回覆變成更有效率的工作流。</p>
+            <span class="price-chip">NT$8,000 起</span>
+            <a href="#contact">設計流程</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="work" id="work">
+        <div class="section-heading">
+          <p>Selected Work</p>
+          <h2>作品與計畫中的宇宙</h2>
+        </div>
+        <div class="work-grid">
+          <article class="work-card">
+            <div class="work-visual app-visual">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <p>Pet Tech Product</p>
+            <h3>寵物翻譯與社群 App</h3>
+            <span>Flutter / Firebase / AI Concept / Beta 構想中</span>
+            <a class="work-card-link" href="./pet-translator-app.html">查看 App 介紹</a>
+          </article>
+          <article class="work-card">
+            <div class="work-visual cafe-visual">
+              <span class="map-pin"></span>
+              <span class="cup"></span>
+            </div>
+            <p>Creator Project</p>
+            <h3>100 間貓咖探店計畫</h3>
+            <span>目前 28 / 100 間，從台北延伸到全台貓咖地圖</span>
+            <a class="work-card-link" href="./cat-cafe-project.html">查看探店計畫</a>
+          </article>
+          <article class="work-card">
+            <div class="work-visual knowledge-visual">
+              <span class="book"></span>
+              <span class="spark"></span>
+            </div>
+            <p>Education Content</p>
+            <h3>養貓知識短影音</h3>
+            <span>養貓知識、AI x 寵物、動物溝通紀錄</span>
+            <a class="work-card-link" href="./cat-care-reels.html">查看知識短影音</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="detail-section" id="pet">
+        <div class="section-heading align-left">
+          <p>Pet Communication</p>
+          <h2><a class="heading-link" href="./pet-communication.html">聽懂你家毛孩的話</a></h2>
+        </div>
+        <div class="detail-grid">
+          <article class="detail-card feature-card">
+            <h3>目前進行中：90 天動物溝通師進階計畫</h3>
+            <p>
+              深化遠距溝通能力、跨物種感知訓練，建構動物身心靈整體評估框架。
+              Molly 用工程師的記錄習慣，把直覺感知整理成更清楚、可回顧的回饋。
+            </p>
+          </article>
+          <article class="detail-card">
+            <h3>遠距動物溝通</h3>
+            <p>線上圖文報告，回答 3 個問題，適合想理解毛孩情緒、習慣與需求的飼主。</p>
+            <span>NT$1,500 / 次</span>
+          </article>
+          <article class="detail-card">
+            <h3>到府現場溝通</h3>
+            <p>大台北地區現場溝通，包含環境觀察與生活調整建議。</p>
+            <span>NT$2,800 / 次</span>
+          </article>
+          <article class="detail-card">
+            <h3>彩虹橋溝通</h3>
+            <p>陪伴寵物的最後旅程與道別，讓想念有一個被溫柔安放的位置。</p>
+            <span>NT$1,800 / 次</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="detail-section" id="dev">
+        <div class="section-heading align-left">
+          <p>Development</p>
+          <h2>用程式碼打造你的數位宇宙</h2>
+        </div>
+        <div class="skill-panel">
+          <div class="skill-row"><span>Next.js</span><i style="--w: 92%"></i></div>
+          <div class="skill-row"><span>Flutter</span><i style="--w: 85%"></i></div>
+          <div class="skill-row"><span>UI/UX Design</span><i style="--w: 88%"></i></div>
+          <div class="skill-row"><span>n8n / AI 工具</span><i style="--w: 80%"></i></div>
+          <div class="skill-row"><span>CapCut 剪輯</span><i style="--w: 90%"></i></div>
+        </div>
+        <div class="highlight-strip">
+          <strong>主力作品：寵物翻譯機 App</strong>
+          <span>結合 AI 聲音分析與動物溝通師直覺，打造讓飼主更理解毛孩情緒的 Flutter 產品原型。</span>
+          <a href="./pet-translator-app.html">前往 App 介紹頁</a>
+        </div>
+      </section>
+
+      <section class="detail-section" id="media">
+        <div class="section-heading align-left">
+          <p>Media</p>
+          <h2>每一格都是貓語</h2>
+        </div>
+        <div class="reel-grid">
+          <article class="reel-card apricot"><strong>貓咖探店</strong><span><a href="./cat-cafe-project.html">台北東區 IG 打卡貓咖 TOP 3</a></span></article>
+          <article class="reel-card mauve"><strong>AI x 寵物</strong><span>ChatGPT 能解讀貓叫聲嗎？</span></article>
+          <article class="reel-card sage"><strong>養貓知識</strong><span><a href="./cat-care-reels.html">貓咪半夜瘋跑的科學解釋</a></span></article>
+          <article class="reel-card apricot"><strong>探店地圖</strong><span>永康街貓咪研究室深度探訪</span></article>
+        </div>
+        <div class="progress-card">
+          <div>
+            <strong>100 間貓咖探店進度</strong>
+            <span>已完成 28 / 100 間</span>
+          </div>
+          <div class="progress-bar"><i></i></div>
+          <a class="work-card-link" href="./cat-cafe-project.html">前往探店計畫頁</a>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="about-copy">
+          <p class="section-label">About Molly</p>
+          <h2>用科技放大理解，用內容傳遞溫度。</h2>
+          <p>
+            Molly Link 的多重身分看似橫跨感性與理性，其實都指向同一件事：
+            幫助人與毛孩、品牌與受眾、想法與產品之間建立更好的連結。
+          </p>
+        </div>
+        <div class="cat-profiles">
+          <article>
+            <span class="mini-cat orange"></span>
+            <h3>橘橘</h3>
+            <p>優雅的橘貓，像品牌的情緒雷達，負責提醒我們把溫柔放進每個細節。</p>
+          </article>
+          <article>
+            <span class="mini-cat tabby"></span>
+            <h3>球球</h3>
+            <p>短尾虎斑小導演，像品牌的靈感開關，負責把日常剪成有節奏的故事。</p>
+          </article>
+          <article>
+            <span class="mini-cat pipi"></span>
+            <h3>皮皮</h3>
+            <p>活潑又敏銳的小隊員，像品牌的好奇心，負責把每個新點子都先玩出可能性。</p>
+          </article>
+          <article>
+            <span class="mini-cat beibei"></span>
+            <h3>貝貝</h3>
+            <p>溫柔穩定的陪伴者，像品牌的安心感，負責提醒每個作品都要柔軟又可靠。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div>
+          <p class="section-label">Work Together</p>
+          <h2>把你的想法傳給 Molly，一起做成可愛又實用的作品。</h2>
+          <p class="contact-note">
+            不管你是想讓毛孩被聆聽、想打造品牌網站，還是需要一支有溫度的短影音，Molly 都在這裡。
+          </p>
+          <div class="social-actions" aria-label="社群與聯絡方式">
+            <a class="ig" href="#contact">Instagram</a>
+            <a class="yt" href="#contact">YouTube</a>
+            <a class="line" href="#contact">LINE 諮詢</a>
+            <a class="mail" href="#contact">寄信給我</a>
+          </div>
+        </div>
+        <form class="contact-form">
+          <label>
+            合作類型
+            <select>
+              <option>寵物溝通</option>
+              <option>網站 / App 開發</option>
+              <option>短影音拍攝剪輯</option>
+              <option>AI 工具與自動化</option>
+              <option>品牌合作</option>
+            </select>
+          </label>
+          <label>
+            聯絡方式
+            <input type="text" placeholder="Email / Instagram / Line" />
+          </label>
+          <label>
+            想合作的內容
+            <textarea rows="4" placeholder="簡單告訴 Molly 你的需求、時程或預算。"></textarea>
+          </label>
+          <button class="button primary" type="button">送出合作邀約</button>
+        </form>
+      </section>
+
+      <section class="faq-section" aria-labelledby="faq-title">
+        <div class="section-heading">
+          <p>FAQ</p>
+          <h2 id="faq-title">合作前你可能想知道</h2>
+        </div>
+        <div class="faq-grid">
+          <article>
+            <h3>動物溝通師是迷信嗎？</h3>
+            <p>我的工作建立在直覺感知與長期觀察之上，同時用工程師的系統性思維記錄與整理每次溝通。</p>
+          </article>
+          <article>
+            <h3>接案專案通常需要多久？</h3>
+            <p>短影音約 3 到 7 天，品牌網站約 2 到 4 週，App 開發會依功能複雜度另行評估。</p>
+          </article>
+          <article>
+            <h3>橘橘與球球會出現在服務裡嗎？</h3>
+            <p>會。橘橘負責溫柔校稿，球球負責節奏監督，牠們也是整個品牌最重要的靈魂元素。</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Molly Link</span>
+      <span>Pet Communication / Next.js / Flutter / Reels</span>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

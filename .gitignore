@@ -1,0 +1,4 @@
+server*.log
+preview-*.png
+chrome-profile/
+edge-profile/
